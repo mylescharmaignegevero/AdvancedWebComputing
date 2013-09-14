@@ -1,0 +1,32 @@
+
+#columnone
+{
+	background-color:#ffffff;
+  	border:5px solid black;
+ 	opacity:0.8;
+  	filter:alpha(opacity=80);
+	float: left;
+	background-color: transparent;
+	margin-left: 150px;
+	margin-right: 20px;
+	width: 400px;
+}
+
+#columntwo
+{
+	background-color:#ffffff;
+  	border:5px solid black;
+  	opacity:0.8;
+  	filter:alpha(opacity=80);
+  	float: right;
+	background-color: transparent;
+	margin-right: 150px;
+	margin-left: 20px;
+	width: 400px;
+}
+
+#me
+{
+	color: #DAA520;
+	font-size: 20px;
+}
