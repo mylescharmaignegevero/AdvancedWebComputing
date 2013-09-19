@@ -1,5 +1,18 @@
-body {
-  font-family: Verdana, Helvetica, sans-serif;
-  background-color: black;
-  text-align: center;
+#name{
+	text-align: left;
+	color: yellow;
 }
+footer{
+	text-align: center;
+	color: black;
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color: white;
+}
+
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+

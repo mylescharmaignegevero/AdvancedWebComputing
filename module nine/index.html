@@ -4,9 +4,14 @@
 
   <head>
     <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+	
   </head>
 
   <body>
+  <div id = "name">
+  <h1>GEVERO-LABRADOR</h1>
+  </div>
+  <br>
     {% for greeting in greetings %}
       {% if greeting.author %}
         <b>{{ greeting.author.nickname() }}</b> wrote:
@@ -31,5 +36,8 @@
     <a href="{{ url|safe }}">{{ url_linktext }}</a>
 
   </body>
+  <footer>
+  <p>Powered by Polytechnic University of the Philippines and Google App Engine</p>
+  </footer>
 </html>
 {% endautoescape %}
